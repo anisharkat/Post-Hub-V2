@@ -4,10 +4,8 @@ import { commandIcon } from "@/utils/icons";
 import { Button } from "@/components/ui/button";
 import { Command, CommandInput } from "@/components/ui/command";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
-import React from "react";
 
 function SearchDialog() {
-  
   return (
     <div className="search-btn">
       <Dialog>
@@ -26,9 +24,8 @@ function SearchDialog() {
 
         <DialogContent className="p-0">
           <Command className=" rounded-lg border shadow-md">
-            <CommandInput
-
-              placeholder="Type a command or search..."
+            <CommandInput 
+              placeholder = "Type a command or search..."
             />
           </Command>
         </DialogContent>
